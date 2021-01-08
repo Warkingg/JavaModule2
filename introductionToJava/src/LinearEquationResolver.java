@@ -9,7 +9,7 @@ public class LinearEquationResolver {
         double a = scanner.nextDouble();
 
         System.out.print("b: ");
-        double b = scanner.nextDouble();0
+        double b = scanner.nextDouble();
 
         System.out.print("c: ");
         double c = scanner.nextDouble();
