@@ -1,5 +1,5 @@
 package com.codegym;
-public class TestStaticMethod {
+public class TestStaticMethodStudent {
     public static void main(String args[]) {
         Student.change(); //calling change method
 
