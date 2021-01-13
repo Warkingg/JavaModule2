@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class QuadraticEquation {
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the value of a ::");
         double a = sc.nextDouble();
@@ -12,11 +13,11 @@ public class QuadraticEquation {
         System.out.println("Enter the value of c ::");
         double c = sc.nextDouble();
 
-        QuadraticEquation quadricEquation = new QuadraticEquation(a,b,c);
-        if(quadricEquation.getDiscriminant()>0){
-            System.out.println("Roots are :: "+ quadricEquation.getRoot1() +" and "+ quadricEquation.getRoot2());
-        }else if(quadricEquation.getDiscriminant() == 0){
-            System.out.println("Root is :: "+ quadricEquation.getRoot0());
+        QuadraticEquation quadraicEquation = new QuadraticEquation(a,b,c);
+        if(quadraicEquation.getDiscriminant()>0){
+            System.out.println("Roots are :: "+ quadraicEquation.getRoot1() +" and "+ quadraicEquation.getRoot2());
+        }else if(quadraicEquation.getDiscriminant() == 0){
+            System.out.println("Root is :: "+ quadraicEquation.getRoot0());
         }else{
             System.out.println("The equation has no root");
         }
@@ -30,25 +31,25 @@ public class QuadraticEquation {
         this.b = b;
         this.c = c;
     }
-    public double getA(){
+    public double getA(double a){
         return a;
     }
-    public double getB(){
+    public double getB(double b){
         return b;
     }
-    public double getC(){
+    public double getC(double c){
         return c;
     }
     public double getDiscriminant(){
-        return ((b*b) - (4*a*c));
+        return ((this.b*this.b) - (4*this.a*this.c));
     }
     public double getRoot0() {
-        return (-b / (2 * a));
+        return (-this.b / (2 * this.a));
     }
     public double getRoot1(){
-        return ((-b + Math.pow((b*b)-(4*a*c),0.5))/(2*a));
+        return ((-b + Math.pow((this.b*this.b)-(4*this.a*this.c),0.5))/(2*this.a));
     }
     public double getRoot2(){
-        return((-b - Math.pow((b*b)-(4*a*c),0.5))/(2*a));
+        return((-this.b - Math.pow((this.b*this.b)-(4*this.a*this.c),0.5))/(2*this.a));
     }
 }
