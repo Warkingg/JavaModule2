@@ -2,11 +2,11 @@ import java.util.Scanner;
 
 public class deleteElementInArray {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         int[] arr = {4, 12, 7, 8, 1, 6, 9};
         int[] newArr = null;
         System.out.print("Enter Element to be deleted : ");
-        int x = in.nextInt();
+        int x = input.nextInt();
         for(int i = 0; i < arr.length; i++){
         if(arr[i] == x){
                 newArr = new int[arr.length - 1];
