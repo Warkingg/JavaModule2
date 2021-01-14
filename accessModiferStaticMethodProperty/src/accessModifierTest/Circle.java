@@ -17,7 +17,4 @@ public class Circle {
         public double getArea() {
             return (this.radius*this.radius*3.14);
         }
-        void Display(){
-            System.out.println("Area of Circle is " + getArea());
-        }
     }

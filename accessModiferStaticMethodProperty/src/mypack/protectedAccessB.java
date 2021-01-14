@@ -1,11 +1,14 @@
 package mypack;
 import pack.*;
-class protectedAccessB {
-    public static void main(String args[]){
+    class B extends protectedAccessA{
 
-        protectedAccessA obj = new protectedAccessA();
+        public static void main(String args[]){
 
-        obj.msg();
+            B obj = new B();
+
+            obj.msg();
+
+        }
 
     }
-}
+
