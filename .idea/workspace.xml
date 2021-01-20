@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c3911fd0-4e3a-43ec-9234-8f67f2312dd7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/abstractClassInterface/src/animal/AbstractAndInterfaceTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstractClassInterface/src/animal/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstractClassInterface/src/animal/Chicken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstractClassInterface/src/animal/Tiger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstractClassInterface/src/edible/Edible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstractClassInterface/src/testInClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaLoop/src/drawingAppMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaLoop/src/drawingObjectMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaLoop/src/greatestCommonFactor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javaLoop/src/interestBankFee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritancePolymorphism/src/circle/CylinderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/inheritancePolymorphism/src/circle/CylinderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaLoop/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/javaLoop/.idea/vcs.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/automatedTestingTDD/junit-simple-calculator" />
+  </component>
+  <component name="ProjectId" id="1nGyqLx5dVtsHL8mDRZHRQrYP1H" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/automatedTestingTDD" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="JUnit.SimpleCalculatorTest">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="automatedTestingTDD" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SimpleCalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleCalculatorTest.testAdd0And0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="automatedTestingTDD" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SimpleCalculatorTest" />
+      <option name="METHOD_NAME" value="testAdd0And0" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SimpleCalculatorTest" />
+        <item itemvalue="JUnit.SimpleCalculatorTest.testAdd0And0" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3911fd0-4e3a-43ec-9234-8f67f2312dd7" name="Default Changelist" comment="" />
+      <created>1611030911947</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611030911947</updated>
+      <workItem from="1611030913438" duration="517000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
