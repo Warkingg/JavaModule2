@@ -10,7 +10,6 @@ public class TestMyLinkedList {
         ll.add(4,9);
         ll.addFirst(14);
         //ll.printList();
-        System.out.println(ll.get(3));
     }
 }
 
