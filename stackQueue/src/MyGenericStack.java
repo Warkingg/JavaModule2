@@ -1,16 +1,16 @@
 import java.util.EmptyStackException;
 import java.util.LinkedList;
 
-public class MyGenericStack<T> {
-    private LinkedList<T> stack;
+public class MyGenericStack<S> {
+    private LinkedList<S> stack;
 
     public MyGenericStack() {
         stack = new LinkedList();
     }
-    public void push(T element) {
+    public void push(S element) {
         stack.addFirst(element);
     }
-    public T pop() {
+    public S pop() {
         if (isEmpty()) {
             throw new EmptyStackException();
         }
