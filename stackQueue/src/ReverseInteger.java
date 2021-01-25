@@ -10,11 +10,11 @@ public class ReverseInteger {
         stack.push(3);
         stack.push(2);
         stack.push(1);
-        System.out.printf("%s \n", stack.toString());
+        System.out.println("Stack Original: " + stack);
         for (int i = 0; i< arr.length;i++){
             arr[i] = stack.pop();
         }
-        System.out.println(Arrays.toString(arr));
+        System.out.println("Stack to Array: " + Arrays.toString(arr));
         Stack <String> wsStack = new Stack();
         String mWord = "Step on no pets";
         for(int i = 0; i< mWord.length();i++){
